@@ -1,0 +1,35 @@
+<svg width="1600" height="860" viewBox="0 0 1600 860" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">CloudOTP 分类管理页预览</title>
+  <desc id="desc">分类管理页，展示搜索、添加分类、统计和删除空分类。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="860"><stop stop-color="#F8FAFC"/><stop offset="1" stop-color="#EEF2FF"/></linearGradient>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#7C5CFF"/><stop offset="1" stop-color="#4F46E5"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#0F172A" flood-opacity=".10"/></filter>
+  </defs>
+  <rect width="1600" height="860" fill="url(#bg)"/>
+  <g filter="url(#s)">
+    <rect x="250" y="92" width="1100" height="66" rx="26" fill="#fff" stroke="#DBE3EE"/>
+    <rect x="274" y="111" width="32" height="32" rx="10" fill="url(#p)"/>
+    <text x="324" y="133" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">2FA 管理</text>
+    <text x="810" y="134" fill="#111827" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">账号管理</text>
+    <rect x="926" y="110" width="138" height="36" rx="18" fill="#EEF2FF"/>
+    <text x="966" y="134" fill="#4F46E5" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="900">分类管理</text>
+  </g>
+  <g filter="url(#s)" font-family="Inter, Arial, sans-serif">
+    <rect x="350" y="220" width="900" height="54" rx="20" fill="#fff" stroke="#DBE3EE"/>
+    <text x="386" y="254" fill="#94A3B8" font-size="15" font-weight="800">搜索分类名称</text>
+    <rect x="1084" y="228" width="140" height="38" rx="19" fill="url(#p)"/>
+    <text x="1126" y="253" fill="#fff" font-size="14" font-weight="900">添加分类</text>
+    <rect x="350" y="302" width="900" height="76" rx="16" fill="#fff" stroke="#DBE3EE"/>
+    <text x="382" y="334" fill="#64748B" font-size="15" font-weight="800">分类总数</text><text x="382" y="362" fill="#0F172A" font-size="28" font-weight="900">3</text>
+    <text x="680" y="334" fill="#64748B" font-size="15" font-weight="800">可删除分类</text><text x="680" y="362" fill="#0F172A" font-size="28" font-weight="900">1</text>
+    <text x="980" y="334" fill="#64748B" font-size="15" font-weight="800">账号总数</text><text x="980" y="362" fill="#0F172A" font-size="28" font-weight="900">3</text>
+    <rect x="350" y="404" width="900" height="220" rx="20" fill="#fff" stroke="#DBE3EE"/>
+    <rect x="350" y="404" width="900" height="48" rx="20" fill="#F8FAFC"/>
+    <text x="390" y="434" fill="#64748B" font-size="14" font-weight="900">分类名称</text>
+    <text x="760" y="434" fill="#64748B" font-size="14" font-weight="900">账号数量</text>
+    <text x="1070" y="434" fill="#64748B" font-size="14" font-weight="900">操作</text>
+    <text x="390" y="496" fill="#0F172A" font-size="18" font-weight="900">AI</text><text x="760" y="496" fill="#0F172A" font-size="16" font-weight="800">3 个账号</text><rect x="1050" y="476" width="78" height="32" rx="9" fill="#FEE2E2"/><text x="1064" y="498" fill="#991B1B" font-size="14" font-weight="900">不可删</text>
+    <text x="390" y="558" fill="#0F172A" font-size="18" font-weight="900">亚马逊 TV</text><text x="760" y="558" fill="#0F172A" font-size="16" font-weight="800">0 个账号</text><rect x="1050" y="538" width="58" height="32" rx="9" fill="#FEE2E2"/><text x="1065" y="560" fill="#991B1B" font-size="14" font-weight="900">删除</text>
+  </g>
+</svg>

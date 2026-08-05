@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "totp-local",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-10",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "totp-db",
+      "database_id": "local-totp-db",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
